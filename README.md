@@ -1,2 +1,2 @@
 # genpdf
-acording to a pdf template generates a new pdf  dymaticly with some variables
+acording to a pdf template with some variables generates a new pdf dymaticly 
