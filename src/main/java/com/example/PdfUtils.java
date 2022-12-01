@@ -42,6 +42,7 @@ public class PdfUtils {
             form.addSubstitutionFont(bf);
             for(String key : datemap.keySet()){
                 String value = datemap.get(key);
+                form.setFieldProperty(key, "textsize", 16f, null); //set fontSize.
                 form.setField(key,value);
             }
             //图片类的内容处理
